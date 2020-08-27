@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6a7d38-d94b-4798-b81f-6ab86acd0633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javabase/IdentiferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javabase/ProcessControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javabase/ScannerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javabase/IdentiferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javabase/IdentiferTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/treetest/ClassTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/CopyFile.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,24 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javabase/IdentiferTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="589">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/BufferedInputStream.java">
+        <entry file="file://$PROJECT_DIR$/src/javabase/ScannerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3950">
-              <caret line="181" column="42" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="42" />
-              <folding>
-                <element signature="e#5951#5952#0" expanded="true" />
-                <element signature="e#5996#5997#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/javabase/ProcessControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -154,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/jdknew/LamBdaSort.java" />
-        <option value="$PROJECT_DIR$/src/jdknew/GetLength.java" />
         <option value="$PROJECT_DIR$/src/jdknew/StreamTest.java" />
         <option value="$PROJECT_DIR$/src/treetest/MenuTree.java" />
         <option value="$PROJECT_DIR$/src/treetest/TreeTest.java" />
@@ -205,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/treetest/Class.java" />
         <option value="$PROJECT_DIR$/src/treetest/ClassTest.java" />
         <option value="$PROJECT_DIR$/src/javabase/IdentiferTest.java" />
+        <option value="$PROJECT_DIR$/src/javabase/ScannerTest.java" />
+        <option value="$PROJECT_DIR$/src/javabase/ProcessControllerTest.java" />
       </list>
     </option>
   </component>
@@ -280,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.ScannerTest">
     <configuration name="BubblingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.BubblingSort" />
       <module name="IDEAWork" />
@@ -294,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.jdkproxy.DynamicTest" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.InsertSort" />
       <module name="IDEAWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy.jdkproxy.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +305,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.InsertSort" />
+    <configuration name="ScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabase.ScannerTest" />
       <module name="IDEAWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="javabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,19 +345,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DynamicTest" />
       <item itemvalue="Application.BubblingSort" />
       <item itemvalue="Application.SelectSort" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ScannerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScannerTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubblingSort" />
-        <item itemvalue="Application.DynamicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -421,12 +419,12 @@
       <workItem from="1597797937206" duration="1146000" />
       <workItem from="1597974842478" duration="1191000" />
       <workItem from="1597994030660" duration="995000" />
-      <workItem from="1598406306141" duration="2467000" />
+      <workItem from="1598406306141" duration="5761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112638000" />
+    <option name="totallyTimeSpent" value="115932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +439,7 @@
     <frame x="-7" y="-7" width="1550" height="846" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" sideWeight="0.4951049" visible="true" weight="0.15090543" />
+      <window_info id="Project" order="0" sideWeight="0.4951049" visible="true" weight="0.15090543" />
       <window_info id="Structure" order="1" sideWeight="0.5048951" side_tool="true" weight="0.1307847" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,24 +489,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="140" column="16" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
-          <folding>
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11350">
@@ -910,8 +890,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javabase/IdentiferTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="589">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javabase/ScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javabase/ProcessControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
         </state>
       </provider>
     </entry>
