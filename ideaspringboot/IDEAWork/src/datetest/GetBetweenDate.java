@@ -24,7 +24,7 @@ public class GetBetweenDate {
 			System.out.println(betweenDates.get(i));
 		}
 	}
-	private static List<Date> getBetweenDates(Date start, Date end){
+	public static List<Date> getBetweenDates(Date start, Date end){
 		List<Date> result = new ArrayList<Date>();
 		Calendar tempStart = Calendar.getInstance();
 		tempStart.setTime(start);
