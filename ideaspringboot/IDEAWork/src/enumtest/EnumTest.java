@@ -5,12 +5,13 @@ package enumtest;
  * @Description: 枚举类简单测试
  * @Date: 2020/9/17 9:50
  */
-public enum  EnumTest {
-	MEMBERS_CHANGE_ADD("0", "待新增","d");
+public enum EnumTest {
+	MEMBERS_CHANGE_ADD("0", "待新增", "d");
 	private String data;
 	private String status;
 	private String message;
-	private EnumTest(String data,String status,String message){
+
+	private EnumTest(String data, String status, String message) {
 		this.data = data;
 		this.message = message;
 		this.status = status;

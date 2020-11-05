@@ -6,7 +6,7 @@ package proxy.cglibproxy;
  * @Date: 2020/7/10 10:41
  */
 public class MiComputer {
-	public void miComputer(){
+	public void miComputer() {
 		System.out.println("小米电脑高性能");
 	}
 }

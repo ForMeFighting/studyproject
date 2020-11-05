@@ -27,20 +27,21 @@ public class UserServiceImpl implements UserService {
 	private JedisPool jedisPool;
 	@Resource
 	private RedisTemplate redisTemplate;
+
 	@Override
 	public String getString(String key) {
 		Jedis jedis = jedisPool.getResource();
 		String val = "";
 		System.out.println(jedis.get("chai"));
-		if(jedis.exists("chai")){
+		if (jedis.exists("chai")) {
 			val = jedis.get("chai");
 			System.out.println("redis");
-		}else{
+		} else {
 			System.out.println("mysql");
-			jedis.set("chai","chai");
+			jedis.set("chai", "chai");
 			val = jedis.get("chai");
 		}
-		redisTemplate.opsForValue().set("ccc","ds");
+		redisTemplate.opsForValue().set("ccc", "ds");
 		System.out.println(redisTemplate.opsForValue().get("chai"));
 		return val;
 	}
@@ -51,8 +52,8 @@ public class UserServiceImpl implements UserService {
 		user.setAge(18);
 		user.setId("1111");
 		user.setName("chaijunjie");
-		redisTemplate.opsForValue().set("user1",user);
-		User user1 = (User)redisTemplate.opsForValue().get("user1");
+		redisTemplate.opsForValue().set("user1", user);
+		User user1 = (User) redisTemplate.opsForValue().get("user1");
 		return user1;
 	}
 }

@@ -9,5 +9,5 @@ import java.util.concurrent.*;
  */
 public class ThreadPoolTest {
 	ExecutorService executorService = new ThreadPoolExecutor(5, 10, 1000,
-			TimeUnit.SECONDS, new LinkedBlockingDeque(), r -> new Thread(r,"ts"));
+			TimeUnit.SECONDS, new LinkedBlockingDeque(), r -> new Thread(r, "ts"));
 }

@@ -32,11 +32,11 @@ public class Consumer {
 		Channel channel = connection.createChannel();
 		//创建队列
 		//参数1：队列名称 参数2：是否持久化 参数3：是否独占 参数4：是否自动删除 参数5：额外参数
-		channel.queueDeclare("hello",false,false,false,null);
-		channel.basicConsume("hello",true,new DefaultConsumer(channel){
+		channel.queueDeclare("hello", false, false, false, null);
+		channel.basicConsume("hello", true, new DefaultConsumer(channel) {
 			@Override
 			public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-				System.out.println("================"+new String(body));
+				System.out.println("================" + new String(body));
 			}
 		});
 //		channel.close();
@@ -62,11 +62,11 @@ public class Consumer {
 		Channel channel = connection.createChannel();
 		//创建队列
 		//参数1：队列名称 参数2：是否持久化 参数3：是否独占 参数4：是否自动删除 参数5：额外参数
-		channel.queueDeclare("aa",true,false,true,null);
-		channel.basicConsume("aa",true,new DefaultConsumer(channel){
+		channel.queueDeclare("aa", true, false, true, null);
+		channel.basicConsume("aa", true, new DefaultConsumer(channel) {
 			@Override
 			public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-				System.out.println("================"+new String(body));
+				System.out.println("================" + new String(body));
 			}
 		});
 //		channel.close();

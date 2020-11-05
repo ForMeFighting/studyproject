@@ -9,12 +9,12 @@ import java.util.concurrent.locks.LockSupport;
  */
 public class ParkAndUnPark {
 	public static void main(String[] args) {
-		Thread t1 = new Thread(()->{
+		Thread t1 = new Thread(() -> {
 			LockSupport.park();//当前线程进入阻塞
 			System.out.println("1");
-		},"t1");
+		}, "t1");
 		t1.start();
-		new Thread(()->{
+		new Thread(() -> {
 			System.out.println("2");
 			LockSupport.unpark(t1);//相当于唤醒t1线程
 		}).start();

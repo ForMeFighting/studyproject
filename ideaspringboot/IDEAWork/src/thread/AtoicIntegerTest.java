@@ -13,11 +13,13 @@ public class AtoicIntegerTest {
 	public AtoicIntegerTest(Integer integer) {
 		atomicInteger = new AtomicInteger(integer);
 	}
+
 	private Integer integer;
 	private AtomicInteger atomicInteger;
 	Lock lock = new ReentrantLock();
-	public void getAtomicInteger(){
-		synchronized (atomicInteger){
+
+	public void getAtomicInteger() {
+		synchronized (atomicInteger) {
 
 		}
 //		if(atomicInteger.compareAndSet())

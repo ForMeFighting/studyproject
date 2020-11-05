@@ -15,21 +15,22 @@ import org.springframework.stereotype.Service;
 @Log
 public class UserServiceImpl implements UserService {
 	@Autowired
-	private RedisTemplate<String,Object> redisTemplate;
+	private RedisTemplate<String, Object> redisTemplate;
+
 	@Override
 	public String getString(String key) {
 		System.out.println(redisTemplate);
 		System.out.println("redisTemplate测试===》");
-		if(redisTemplate.hasKey("chai")){
+		if (redisTemplate.hasKey("chai")) {
 
-		}else{
-			redisTemplate.opsForValue().set("chai","chhchchc");//保存String类型的数据
+		} else {
+			redisTemplate.opsForValue().set("chai", "chhchchc");//保存String类型的数据
 			redisTemplate.opsForValue().get("");//得到值
-			redisTemplate.opsForValue().setIfPresent("","");//表示的是如果不存在（setnx）
-			redisTemplate.opsForHash().hasKey("chai","");//表示的是hash里面是否有该key
-			redisTemplate.opsForHash().put("","","");//表示往hash里面添加值
-			redisTemplate.opsForList().set("",5,"");
-			redisTemplate.opsForList().index("",5);
+			redisTemplate.opsForValue().setIfPresent("", "");//表示的是如果不存在（setnx）
+			redisTemplate.opsForHash().hasKey("chai", "");//表示的是hash里面是否有该key
+			redisTemplate.opsForHash().put("", "", "");//表示往hash里面添加值
+			redisTemplate.opsForList().set("", 5, "");
+			redisTemplate.opsForList().index("", 5);
 //			redisTemplate.opsForSet().
 		}
 		return null;

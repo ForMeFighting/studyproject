@@ -9,7 +9,7 @@ public class ProcessControllerTest {
 	public static void main(String[] args) {
 		int a = 3;
 		//switch后面的括号里面只能是byte，char，int，short，String，枚举类型
-		switch (a){
+		switch (a) {
 			case 3:
 				System.out.println("sss");
 				break;

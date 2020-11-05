@@ -21,9 +21,9 @@ public class Provideer {
 		//创建通道
 		Channel channel = connection.createChannel();
 		//参数1：交换机名称 参数2：交换机类型
-		channel.exchangeDeclare("topics","topic");
+		channel.exchangeDeclare("topics", "topic");
 		String routekey = "topic.save";
-		channel.basicPublish("topics",routekey,null,"exchange type topic send message".getBytes());
-		RabbitMqUtil.close(channel,connection);
+		channel.basicPublish("topics", routekey, null, "exchange type topic send message".getBytes());
+		RabbitMqUtil.close(channel, connection);
 	}
 }

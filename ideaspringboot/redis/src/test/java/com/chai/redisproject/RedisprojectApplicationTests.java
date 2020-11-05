@@ -18,12 +18,14 @@ class RedisprojectApplicationTests {
 	private JedisPool jedisPool;
 	@Autowired
 	private UserService userService;
+
 	@Test
 	void contextLoads() {
 		System.out.println(jedisPool);
 	}
+
 	@Test
-	void t1(){
+	void t1() {
 		String val = userService.getString("chai");
 		System.out.println(val);
 //		Jedis jedis = new Jedis("192.168.2.132",6379);
@@ -31,8 +33,9 @@ class RedisprojectApplicationTests {
 //		System.out.println(jedis.ping());
 //		jedis.close();
 	}
+
 	@Test
-	void t2(){
+	void t2() {
 		User user = userService.getUserInfo();
 		System.out.println(user.toString());
 	}

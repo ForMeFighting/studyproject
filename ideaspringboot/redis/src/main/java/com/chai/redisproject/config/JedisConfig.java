@@ -19,7 +19,7 @@ public class JedisConfig {
 	private Logger logger = LoggerFactory.getLogger(JedisConfig.class);
 	@Value("${spring.redis.port}")
 	private int port;
-//	@Value("${spring.redis.password}")
+	//	@Value("${spring.redis.password}")
 //	private String password;
 	@Value("${spring.redis.host}")
 	private String host;
@@ -31,14 +31,15 @@ public class JedisConfig {
 	private int maxIdle;
 	@Value("${spring.redis.jedis.pool.min-idle}")
 	private int minIdle;
+
 	@Bean
-	public JedisPool jedisPool(){
+	public JedisPool jedisPool() {
 		JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
 		jedisPoolConfig.setMaxIdle(maxIdle);
 		jedisPoolConfig.setMinIdle(minIdle);
 		jedisPoolConfig.setMaxTotal(maxActive);
-		JedisPool jedisPool = new JedisPool(jedisPoolConfig,host,port,timeout);
-		logger.info("Jedis连接成功："+host+"\t"+port);
+		JedisPool jedisPool = new JedisPool(jedisPoolConfig, host, port, timeout);
+		logger.info("Jedis连接成功：" + host + "\t" + port);
 		return jedisPool;
 	}
 }

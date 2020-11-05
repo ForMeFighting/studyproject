@@ -12,14 +12,14 @@ public class produceAndConsumer {
 		MessageQueue messageQueue = new MessageQueue(2);
 		for (int i = 0; i < 3; i++) {
 			int id = i;
-			new Thread(()->{
-				messageQueue.put(new Message(id+"","值"+id));
-			},"produce"+i).start();
+			new Thread(() -> {
+				messageQueue.put(new Message(id + "", "值" + id));
+			}, "produce" + i).start();
 		}
 
-		new Thread(()->{
+		new Thread(() -> {
 			try {
-				while (true){
+				while (true) {
 					Thread.sleep(1000);
 					Message message = messageQueue.take();
 				}
@@ -29,7 +29,8 @@ public class produceAndConsumer {
 		}).start();
 	}
 }
-	class MessageQueue{
+
+class MessageQueue {
 	//消息的队列集合
 	private LinkedList<Message> linkedList = new LinkedList<>();
 	//队列的容量
@@ -40,9 +41,9 @@ public class produceAndConsumer {
 	}
 
 	//消费消息
-	public Message take(){
+	public Message take() {
 		synchronized (linkedList) {
-			while (linkedList == null){
+			while (linkedList == null) {
 				try {
 					linkedList.wait();
 				} catch (InterruptedException e) {
@@ -53,10 +54,11 @@ public class produceAndConsumer {
 			return linkedList.removeFirst();
 		}
 	}
+
 	//存入消息
-	public void put(Message message){
-		synchronized (linkedList){
-			while (linkedList.size() == capcity){
+	public void put(Message message) {
+		synchronized (linkedList) {
+			while (linkedList.size() == capcity) {
 				try {
 					linkedList.wait();
 				} catch (InterruptedException e) {
@@ -68,7 +70,8 @@ public class produceAndConsumer {
 		}
 	}
 }
-final class Message{
+
+final class Message {
 	private String id;
 	private Object value;
 

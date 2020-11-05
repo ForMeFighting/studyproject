@@ -15,13 +15,14 @@ public class CallAbleTest implements Callable<Integer> {
 		ExecutorService es = newFixedThreadPool(2);
 		es.submit(new CallAbleTest());
 		es.submit(new CallAbleTest());
-		FutureTask <String> futureTask = new FutureTask<>(()-> UUID.randomUUID().toString());
-		Thread thread = new Thread(futureTask,"ss");
+		FutureTask<String> futureTask = new FutureTask<>(() -> UUID.randomUUID().toString());
+		Thread thread = new Thread(futureTask, "ss");
 		thread.join();
 		TimeUnit.SECONDS.sleep(1);
 		thread.start();
 		String sum = futureTask.get();
 	}
+
 	@Override
 	public Integer call() throws Exception {
 		return 1;

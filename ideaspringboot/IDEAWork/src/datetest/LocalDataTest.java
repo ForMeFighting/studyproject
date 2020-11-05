@@ -20,8 +20,8 @@ public class LocalDataTest {
 		DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 		String format = now.format(dateTimeFormatter);
 		System.out.println(format);
-		LocalDate parse = LocalDate.parse(format,dateTimeFormatter);
-		System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(new Date())+"===");
+		LocalDate parse = LocalDate.parse(format, dateTimeFormatter);
+		System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(new Date()) + "===");
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
 		Date date = simpleDateFormat.parse("2020-10-08");
 		System.out.println(new SimpleDateFormat("yyyy-MM-dd").parse("2020-10-08"));

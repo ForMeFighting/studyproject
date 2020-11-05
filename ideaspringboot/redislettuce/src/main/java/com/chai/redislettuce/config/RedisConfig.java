@@ -24,23 +24,24 @@ public class RedisConfig extends CachingConfigurerSupport {
 	@Bean
 	@Override
 	public KeyGenerator keyGenerator() {
-		return new KeyGenerator(){
+		return new KeyGenerator() {
 			@Override
 			public Object generate(Object o, Method method, Object... objects) {
 				StringBuilder sb = new StringBuilder();
 				sb.append(o.getClass().getName());
 				sb.append(method.getName());
-				for (Object os:objects
-					 ) {
+				for (Object os : objects
+				) {
 					sb.append(os.toString());
 				}
 				return sb.toString();
 			}
 		};
 	}
+
 	@Bean
-	public RedisTemplate<String,Object> redisTemplate(LettuceConnectionFactory factory){
-		RedisTemplate<String,Object> template = new RedisTemplate<>();
+	public RedisTemplate<String, Object> redisTemplate(LettuceConnectionFactory factory) {
+		RedisTemplate<String, Object> template = new RedisTemplate<>();
 		template.setConnectionFactory(factory);
 		Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
 		ObjectMapper om = new ObjectMapper();

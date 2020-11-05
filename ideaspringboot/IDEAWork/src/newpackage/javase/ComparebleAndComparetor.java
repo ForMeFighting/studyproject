@@ -16,7 +16,8 @@ public class ComparebleAndComparetor {
 	public static void main(String[] args) {
 
 	}
-	public List<String> getList(){
+
+	public List<String> getList() {
 		Collections.sort(new ArrayList());
 		return new ArrayList<String>();
 	}

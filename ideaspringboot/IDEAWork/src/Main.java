@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class Main {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
 //        BigDecimal bigDecimal = new BigDecimal(48000.0000);
 //        BigDecimal bigDecimal1 = new BigDecimal(0.000001).setScale(6,BigDecimal.ROUND_HALF_UP);
@@ -19,5 +19,5 @@ public class Main {
 		int ss = i % s;
 		System.out.println(ss);
 
-    }
+	}
 }

@@ -22,9 +22,9 @@ public class Provideer {
 		//创建通道
 		Channel channel = connection.createChannel();
 		//参数1：交换机名称 参数2：交换机类型
-		channel.exchangeDeclare("logs_direct","direct");
+		channel.exchangeDeclare("logs_direct", "direct");
 		String routkey = "info";
-		channel.basicPublish("logs_direct",routkey,null,"exchange type fanout send message".getBytes());
-		RabbitMqUtil.close(channel,connection);
+		channel.basicPublish("logs_direct", routkey, null, "exchange type fanout send message".getBytes());
+		RabbitMqUtil.close(channel, connection);
 	}
 }

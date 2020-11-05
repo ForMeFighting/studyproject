@@ -10,7 +10,7 @@ import java.util.TreeSet;
  */
 public class TreeSetTest {
 	public static void main(String[] args) {
-		TreeSet treeSet =  new TreeSet();
+		TreeSet treeSet = new TreeSet();
 		treeSet.add("sss");
 		treeSet.add("sss");
 		HashSet hashSet = new HashSet();

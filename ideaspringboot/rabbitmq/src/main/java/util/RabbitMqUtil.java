@@ -13,10 +13,12 @@ import java.util.concurrent.TimeoutException;
  * @Date: 2020/7/30 10:26
  */
 public class RabbitMqUtil {
-	private RabbitMqUtil(){
+	private RabbitMqUtil() {
 
 	}
+
 	private static ConnectionFactory connectionFactory;
+
 	static {
 		connectionFactory = new ConnectionFactory();
 		//绑定地址
@@ -29,11 +31,17 @@ public class RabbitMqUtil {
 		connectionFactory.setUsername("ems");
 		connectionFactory.setPassword("ems");
 	}
+
 	public static Connection getConnection() throws IOException, TimeoutException {
 		return connectionFactory.newConnection();
 	}
-	public static void close(Channel channel,Connection connection) throws IOException, TimeoutException {
-		if(channel!=null) {channel.close();}
-		if(connection!=null) {connection.close();}
+
+	public static void close(Channel channel, Connection connection) throws IOException, TimeoutException {
+		if (channel != null) {
+			channel.close();
+		}
+		if (connection != null) {
+			connection.close();
+		}
 	}
 }

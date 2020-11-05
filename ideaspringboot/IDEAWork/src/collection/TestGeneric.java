@@ -10,7 +10,7 @@ import java.util.List;
  * @version:1.0
  */
 public class TestGeneric {
-    public static void main(String[] args) {
-        List<String> list = new LinkedList<>();
-    }
+	public static void main(String[] args) {
+		List<String> list = new LinkedList<>();
+	}
 }

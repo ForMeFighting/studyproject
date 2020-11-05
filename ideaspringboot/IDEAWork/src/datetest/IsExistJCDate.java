@@ -23,15 +23,16 @@ public class IsExistJCDate {
 		exiextDate = isExiextDate(dateBoList);
 		System.out.println(exiextDate);
 	}
+
 	private static boolean isExiextDate(List<DateBo> dateBoList) {
 		Set<Date> set = new HashSet();
 		boolean flag = true;
-		for (DateBo dateBo:dateBoList) {
+		for (DateBo dateBo : dateBoList) {
 			Date begin = StringToDate.StringToDate(dateBo.getBegin().substring(0, 10));
 			Date end = StringToDate.StringToDate(dateBo.getEnd().substring(0, 10));
 			List<Date> betweenDates = GetBetweenDate.getBetweenDates(begin, end);
 			for (int i = 0; i < betweenDates.size(); i++) {
-				if(!flag){
+				if (!flag) {
 					return flag;
 				}
 				flag = set.add(betweenDates.get(i));
@@ -40,7 +41,8 @@ public class IsExistJCDate {
 		return flag;
 	}
 }
-class DateBo{
+
+class DateBo {
 	private String begin;
 	private String end;
 

@@ -5,7 +5,7 @@ package springioc;
  * @Description: 橙子
  * @Date: 2020/5/28 16:25
  */
-public class Orange implements Fruit{
+public class Orange implements Fruit {
 	@Override
 	public void eat() {
 		System.out.println("吃橙子");

@@ -22,13 +22,17 @@ public class InsertSort {
 		for (int i = 1; i < array.length; i++) {
 			preIndex = i - 1;//1
 			current = array[i];//38
-			while (preIndex >= 0 && array[preIndex] > current){
-				array[preIndex+1] = array[preIndex];
+			while (preIndex >= 0 && array[preIndex] > current) {
+				array[preIndex + 1] = array[preIndex];
 				preIndex--;
 			}
-			array[preIndex + 1] =current;
+			array[preIndex + 1] = current;
 		}
 	}
-	public final void aa(){}
-	public final void aa(int a){}
+
+	public final void aa() {
+	}
+
+	public final void aa(int a) {
+	}
 }

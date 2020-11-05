@@ -22,16 +22,17 @@ public class SelectSort {
 		}
 		for (int i = 0; i < array.length - 1; i++) {
 			int minIndex = i;
-			for (int j = i+1; j < array.length; j++) {
-				if(array[j] < array[minIndex]){
+			for (int j = i + 1; j < array.length; j++) {
+				if (array[j] < array[minIndex]) {
 					minIndex = j;
 				}
 			}
-			if(minIndex != i){
+			if (minIndex != i) {
 				swap(array, minIndex, i);
 			}
 		}
 	}
+
 	private static void swap(int[] array, int a, int b) {
 		int temp = array[a];
 		array[a] = array[b];

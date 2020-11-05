@@ -15,16 +15,17 @@ public class GetBetweenDate {
 	public static void main(String[] args) {
 		List<Date> betweenDates = new ArrayList<>();
 		try {
-			 betweenDates = getBetweenDates(new SimpleDateFormat("yyyy-MM-dd").parse("2020-10-10"),
+			betweenDates = getBetweenDates(new SimpleDateFormat("yyyy-MM-dd").parse("2020-10-10"),
 					new SimpleDateFormat("yyyy-MM-dd").parse("2020-10-10"));
-		}catch (Exception e){
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		for (int i = 0; i < betweenDates.size(); i++) {
 			System.out.println(betweenDates.get(i));
 		}
 	}
-	public static List<Date> getBetweenDates(Date start, Date end){
+
+	public static List<Date> getBetweenDates(Date start, Date end) {
 		List<Date> result = new ArrayList<Date>();
 		Calendar tempStart = Calendar.getInstance();
 		tempStart.setTime(start);

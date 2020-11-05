@@ -9,8 +9,8 @@ import java.io.*;
  */
 public class CopyFile {
 	public static void main(String[] args) {
-		File source = new File("E:"+File.separator+"my.log");
-		File dest = new File("E:"+File.separator+"my1.log");
+		File source = new File("E:" + File.separator + "my.log");
+		File dest = new File("E:" + File.separator + "my1.log");
 		BufferedInputStream input = null;
 		BufferedOutputStream output = null;
 		try {
@@ -21,9 +21,9 @@ public class CopyFile {
 			while ((bytesRead = input.read(buf)) != -1) {
 				output.write(buf, 0, bytesRead);
 			}
-		}catch (Exception e){
+		} catch (Exception e) {
 			e.printStackTrace();
-		}finally {
+		} finally {
 
 		}
 	}

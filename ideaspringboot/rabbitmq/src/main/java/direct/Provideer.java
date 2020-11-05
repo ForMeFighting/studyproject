@@ -36,9 +36,9 @@ public class Provideer {
 		Channel channel = connection.createChannel();
 		//创建队列
 		//参数1：队列名称 参数2：队列是否持久化，只保证队列，不保证消息 参数3：是否独占 参数4：是否自动删除 参数5：额外参数
-		channel.queueDeclare("aa",true,false,true,null);
+		channel.queueDeclare("aa", true, false, true, null);
 		//参数1：交换机名称 参数2：队列名称，参数3：传递消息额外设置，参数4：消息的具体内容
-		channel.basicPublish("","aa", MessageProperties.PERSISTENT_TEXT_PLAIN,"hello rabbitmq,i come".getBytes());//MessageProperties.PERSISTENT_TEXT_PLAIN表示的是消息的持久化
-		RabbitMqUtil.close(channel,connection);
+		channel.basicPublish("", "aa", MessageProperties.PERSISTENT_TEXT_PLAIN, "hello rabbitmq,i come".getBytes());//MessageProperties.PERSISTENT_TEXT_PLAIN表示的是消息的持久化
+		RabbitMqUtil.close(channel, connection);
 	}
 }

@@ -11,7 +11,7 @@ public class DynamicTest {
 	public static void main(String[] args) {
 		Animal animal = new Dog();
 		DynamicProxy dynamicProxy = new DynamicProxy(animal);
-		Animal newProxyInstance = (Animal)Proxy.newProxyInstance(Dog.class.getClassLoader(), Dog.class.getInterfaces(), dynamicProxy);
+		Animal newProxyInstance = (Animal) Proxy.newProxyInstance(Dog.class.getClassLoader(), Dog.class.getInterfaces(), dynamicProxy);
 		newProxyInstance.eat();
 	}
 }

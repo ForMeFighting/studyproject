@@ -11,9 +11,11 @@ public enum ClassTest {
 	Class3("三年级"),
 	Class4("四年级"),
 	Class5("五年级"),
-	Class6("六年级"),;
+	Class6("六年级"),
+	;
 	public String str;
-	ClassTest(String str){
-	this.str = str;
+
+	ClassTest(String str) {
+		this.str = str;
 	}
 }

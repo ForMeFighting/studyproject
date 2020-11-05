@@ -9,6 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class RedislettuceApplicationTests {
 	@Autowired
 	private UserService userService;
+
 	@Test
 	void contextLoads() {
 		userService.getString("chai");

@@ -11,8 +11,8 @@ import java.util.List;
  * @version: 1.0
  */
 public class ArrayListTest {
-    public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        List<String> linkedList = new LinkedList<>();
-    }
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		List<String> linkedList = new LinkedList<>();
+	}
 }

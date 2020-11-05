@@ -8,9 +8,10 @@ package springioc;
 public class Factory {
 
 	public static Fruit fruit = null;
-	public static Fruit getFruit(String className){
+
+	public static Fruit getFruit(String className) {
 		try {
-			fruit = (Fruit)Class.forName(className).newInstance();
+			fruit = (Fruit) Class.forName(className).newInstance();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
