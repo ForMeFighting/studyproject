@@ -31,7 +31,11 @@ public class StringToDate {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(StringToDate("2020-10-01".substring(0, 10)));
-
+//		System.out.println(StringToDate("2020-10-01".substring(0, 10)));
+		try {
+			System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2020-11-01T12:27:10.323+0800".substring(0,10)+" "+ "2020-11-01T12:27:10.323+0800".substring(11,19)));
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
 	}
 }

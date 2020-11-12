@@ -14,5 +14,12 @@ public class ArrayListTest {
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<>();
 		List<String> linkedList = new LinkedList<>();
+		list.add("a");
+		list.add("a");
+		list.add("a");
+		list.add("a");
+		list.add("a");
+		list.add(3,"vc");
+		System.out.println(list);
 	}
 }
