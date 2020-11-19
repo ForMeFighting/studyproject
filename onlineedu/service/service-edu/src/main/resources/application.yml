@@ -2,17 +2,17 @@
 spring:
   application:
     name: service-edu
-profiles:
-  active: dev
+  profiles:
+    active: dev
 
 
-####  application-dev.yml
+  ####  application-dev.yml
   server:
     port: 8001
   mybatis-plus:
     configuration:
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  mapper-locations: classpath:com/atguigu/service/*/mapper/*.xml
+  mapper-locations: classpath:com/chai/service/*/mapper/*.xml
   global-config:
     db-config:
       logic-delete-value: 1
