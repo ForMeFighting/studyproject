@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d6a7d38-d94b-4798-b81f-6ab86acd0633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jdknew/distinctList.java" afterDir="false" />
-    </list>
+    <list default="true" id="4d6a7d38-d94b-4798-b81f-6ab86acd0633" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/jdknew/distinctList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
@@ -467,12 +465,12 @@
       <workItem from="1603353211985" duration="638000" />
       <workItem from="1605060936869" duration="805000" />
       <workItem from="1605143833350" duration="2221000" />
-      <workItem from="1605765790133" duration="1339000" />
+      <workItem from="1605765790133" duration="1755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132425000" />
+    <option name="totallyTimeSpent" value="132841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,7 +483,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" order="0" sideWeight="0.4951049" visible="true" weight="0.20389001" />
       <window_info id="Structure" order="1" sideWeight="0.5048951" side_tool="true" weight="0.1307847" />
@@ -934,7 +931,7 @@
     <entry file="file://$PROJECT_DIR$/src/jdknew/distinctList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
