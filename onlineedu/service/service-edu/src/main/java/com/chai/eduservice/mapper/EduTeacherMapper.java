@@ -1,6 +1,6 @@
 package com.chai.eduservice.mapper;
 
-import com.chai.eduservice.entity.EduTeacher;
+import com.chai.eduservice.entity.po.EduTeacher;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

@@ -57,7 +57,7 @@ public class CodeGenerator {
 		pc.setParent("com.chai");
 		//包  com.atguigu.eduservice.controller
 		pc.setController("controller");
-		pc.setEntity("entity");
+		pc.setEntity("entity.po");
 		pc.setService("service");
 		pc.setMapper("mapper");
 		mpg.setPackageInfo(pc);

@@ -1,4 +1,4 @@
-package com.chai.eduservice.entity;
+package com.chai.eduservice.entity.po;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
@@ -16,7 +16,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author chai
- * @since 2020-11-19
+ * @since 2020-11-27
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

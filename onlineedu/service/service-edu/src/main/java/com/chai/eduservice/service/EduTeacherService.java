@@ -1,7 +1,7 @@
 package com.chai.eduservice.service;
 
-import com.chai.eduservice.entity.EduTeacher;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.chai.eduservice.entity.po.EduTeacher;
 
 /**
  * <p>

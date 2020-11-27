@@ -1,9 +1,12 @@
 package com.chai.eduservice.controller;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import com.chai.eduservice.entity.po.EduTeacher;
+import com.chai.eduservice.service.EduTeacherService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
-import org.springframework.web.bind.annotation.RestController;
+import java.util.List;
 
 /**
  * <p>
@@ -14,8 +17,19 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-11-19
  */
 @RestController
-@RequestMapping("/eduservice/edu-teacher")
+@RequestMapping("/eduservice")
+//@CrossOrigin //跨域
 public class EduTeacherController {
-
+	@Autowired
+	private EduTeacherService eduTeacherService;
+	@GetMapping("/getAllTeacher")
+	public List<EduTeacher> getAllTeacher(){
+		return eduTeacherService.list(null);
+	}
+	@GetMapping("/deleteById/{ids}")
+	public boolean deleteById(@PathVariable("ids") String id){
+		boolean b = eduTeacherService.removeById(id);
+		return b;
+	}
 }
 
