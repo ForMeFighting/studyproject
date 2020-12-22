@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 /**
  * @Auther: 柴俊杰
- * @Description: 同意结果返回类
+ * @Description: 统一结果返回类
  * @Date: 2020/12/22 9:41
  */
 @Data

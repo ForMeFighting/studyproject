@@ -30,3 +30,5 @@ spring:
 mybatis-plus:
   type-aliases-package: com.chai.eduservice.entity.po  # 实体类所在包
   mapper-locations: classpath:mybatis/mapper/*.xml
+logging:
+  level: debug

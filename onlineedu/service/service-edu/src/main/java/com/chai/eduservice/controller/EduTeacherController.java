@@ -7,6 +7,7 @@ import com.chai.servicebase.utilbo.PageQuery;
 import com.chai.servicebase.utilbo.ResultUtil;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -41,9 +42,16 @@ public class EduTeacherController {
 		return b;
 	}
 	@PostMapping("/getTeacherByPage")
+	@ApiOperation("pagehelp 分页测试")
 	public ResultUtil getTeacherByPage(@RequestBody PageQuery<EduTeacher> pageQuery){
 		ResultUtil teacherByPage = eduTeacherService.getTeacherByPage(pageQuery);
 		return ResultUtil.result(0,"11",teacherByPage);
+	}
+	@PostMapping("/getException")
+	@ApiOperation("统一异常类测试")
+	public ResultUtil getException(){
+		int i = 5 /0;
+		return ResultUtil.result(0,"异常");
 	}
 }
 

@@ -2,6 +2,7 @@ package com.chai.eduservice.config;
 
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;
 import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;
+import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.PerformanceInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
@@ -40,5 +41,17 @@ public class MyBatisPlusConfig {
 	@Bean
 	public ISqlInjector sqlInjector() {
 		return new LogicSqlInjector();
+	}
+	/**
+	* @author:         柴俊杰
+	* @Description:    配置mybatis-plus分页插件  暂时只配置，不使用
+	* @date:           2020/12/22 14:56
+	*/
+	/**
+	 * 分页插件
+	 */
+	@Bean
+	public PaginationInterceptor paginationInterceptor() {
+		return new PaginationInterceptor();
 	}
 }
