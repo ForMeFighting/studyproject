@@ -2,6 +2,10 @@ package com.chai.eduservice.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.chai.eduservice.entity.po.EduTeacher;
+import com.chai.servicebase.utilbo.PageQuery;
+import com.chai.servicebase.utilbo.ResultUtil;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +17,5 @@ import com.chai.eduservice.entity.po.EduTeacher;
  */
 public interface EduTeacherService extends IService<EduTeacher> {
 
+	ResultUtil getTeacherByPage(PageQuery<EduTeacher> pageQuery);
 }

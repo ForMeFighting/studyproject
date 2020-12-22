@@ -6,10 +6,6 @@ spring:
     name: service-edu
   profiles:
     active: dev
-  mybatis-plus:
-    configuration:
-      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  mapper-locations: classpath:com/chai/service/*/mapper/*.xml
   global-config:
     db-config:
       logic-delete-value: 1
@@ -31,4 +27,6 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
-
+mybatis-plus:
+  type-aliases-package: com.chai.eduservice.entity.po  # 实体类所在包
+  mapper-locations: classpath:mybatis/mapper/*.xml
