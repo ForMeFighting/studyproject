@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6a7d38-d94b-4798-b81f-6ab86acd0633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javabase/BigdiciamlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javabase/IntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javabase/ModeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../onlineedu/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../onlineedu/common/service-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../onlineedu/common/service-base/src/main/java/com/chai/servicebase/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAWork/string/StringSubStirngTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAWork/string/StringSubStirngTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/StringSubStirngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/StringSubStirngTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../onlineedu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../onlineedu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../onlineedu/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../onlineedu/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/EduApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/EduApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDEAWork/map/MapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAWork/map/MapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/map/MapTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,19 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/StringSubStirngTest.java">
+        <entry file="file://$PROJECT_DIR$/src/javabase/BigdiciamlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            <state relative-caret-position="275">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javabase/BigdiciamlTest.java">
+        <entry file="file://$PROJECT_DIR$/src/map/MapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="365">
+              <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -178,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/newpackage/javase/EqualsTest.java" />
         <option value="$PROJECT_DIR$/src/newpackage/javase/ComparebleAndComparetor.java" />
         <option value="$PROJECT_DIR$/src/set/TreeSetTest.java" />
-        <option value="$PROJECT_DIR$/src/map/MapTest.java" />
         <option value="$PROJECT_DIR$/src/jdknew/LamBdaThread.java" />
         <option value="$PROJECT_DIR$/src/thread/InterruptTest.java" />
         <option value="$PROJECT_DIR$/src/thread/ThreadLocalTest.java" />
@@ -217,12 +207,13 @@
         <option value="$PROJECT_DIR$/src/javabase/ModeTest.java" />
         <option value="$PROJECT_DIR$/src/string/StringSubStirngTest.java" />
         <option value="$PROJECT_DIR$/src/javabase/BigdiciamlTest.java" />
+        <option value="$PROJECT_DIR$/src/map/MapTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1945" />
+    <option name="width" value="1943" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -232,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,12 +271,19 @@
               <item name="IDEAWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="IDEAWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEAWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEAWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -323,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BigdiciamlTest">
+  <component name="RunManager" selected="Application.MapTest">
     <configuration name="BigdiciamlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabase.BigdiciamlTest" />
       <module name="IDEAWork" />
@@ -343,6 +340,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javabase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.MapTest" />
+      <module name="IDEAWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,33 +386,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="distinctList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdknew.distinctList" />
-      <module name="IDEAWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdknew.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.distinctList" />
       <item itemvalue="Application.IntegerTest" />
       <item itemvalue="Application.ModeTest" />
       <item itemvalue="Application.StringSubStirngTest" />
       <item itemvalue="Application.BigdiciamlTest" />
+      <item itemvalue="Application.MapTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapTest" />
         <item itemvalue="Application.BigdiciamlTest" />
         <item itemvalue="Application.StringSubStirngTest" />
         <item itemvalue="Application.ModeTest" />
         <item itemvalue="Application.IntegerTest" />
-        <item itemvalue="Application.distinctList" />
       </list>
     </recent_temporary>
   </component>
@@ -482,11 +479,14 @@
       <workItem from="1608001616006" duration="331000" />
       <workItem from="1608002758057" duration="1243000" />
       <workItem from="1608172927710" duration="753000" />
+      <workItem from="1608798746350" duration="677000" />
+      <workItem from="1608856623741" duration="1181000" />
+      <workItem from="1608968976511" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139056000" />
+    <option name="totallyTimeSpent" value="141537000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +498,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="846" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" order="0" sideWeight="0.4951049" visible="true" weight="0.20389001" />
       <window_info id="Structure" order="1" sideWeight="0.5048951" side_tool="true" weight="0.1307847" />
@@ -509,7 +510,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3067227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28991598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24929972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,13 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -865,6 +859,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/StringSubStirngTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javabase/BigdiciamlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/jdknew/LamBdaThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -927,17 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/StringSubStirngTest.java">
+    <entry file="file://$PROJECT_DIR$/src/map/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javabase/BigdiciamlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="365">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
         </state>
       </provider>
     </entry>
