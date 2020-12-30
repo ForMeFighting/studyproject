@@ -18,4 +18,10 @@ import java.util.List;
 public interface EduTeacherService extends IService<EduTeacher> {
 
 	ResultUtil getTeacherByPage(PageQuery<EduTeacher> pageQuery);
+
+	ResultUtil removeTeacherById(EduTeacher pageQuery);
+
+	ResultUtil saveOrUpdateTracher(EduTeacher pageQuery);
+
+	ResultUtil getTeacherById(EduTeacher pageQuery);
 }

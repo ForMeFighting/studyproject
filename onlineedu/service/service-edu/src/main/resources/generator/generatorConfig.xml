@@ -1,0 +1,63 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE generatorConfiguration-->
+<!--        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">-->
+
+<!--<generatorConfiguration>-->
+<!--    &lt;!&ndash; 引入 application.properties &ndash;&gt;-->
+
+<!--    <properties resource="generator/application.properties" />-->
+
+<!--    &lt;!&ndash; MyBatis3Simple：不生成 Example相关类及方法 defaultModelType="flat" &ndash;&gt;-->
+<!--    <context id="MysqlContext" targetRuntime="MyBatis3Simple" >-->
+
+<!--        <property name="beginningDelimiter" value="`"/>-->
+<!--        <property name="endingDelimiter" value="`"/>-->
+
+<!--        &lt;!&ndash; 指定生成 Mapper 的继承模板 &ndash;&gt;-->
+<!--        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">-->
+<!--            <property name="mappers" value="${generator.mappers}"/>-->
+
+<!--        </plugin>-->
+
+<!--        &lt;!&ndash;覆盖生成XML文件&ndash;&gt;-->
+<!--        <plugin type="org.mybatis.generator.plugins.UnmergeableXmlMappersPlugin" />-->
+
+<!--        &lt;!&ndash;注意context内的文件要按序放&ndash;&gt;-->
+<!--        <commentGenerator>-->
+<!--            <property name="suppressDate" value="true"/>-->
+<!--            &lt;!&ndash; 是否去除自动生成的注释 true：是 ： false:否 &ndash;&gt;-->
+<!--            <property name="suppressAllComments" value="true"/>-->
+<!--        </commentGenerator>-->
+
+
+<!--        &lt;!&ndash; jdbc 连接配置 &ndash;&gt;-->
+<!--        <jdbcConnection driverClass="${spring.datasource.driver-class-name}"-->
+<!--                        connectionURL="${spring.datasource.url}"-->
+<!--                        userId="${spring.datasource.username}"-->
+<!--                        password="${spring.datasource.password}">-->
+<!--        </jdbcConnection>-->
+
+<!--        <javaTypeResolver type="com.sgcc.dlsc.clearing.model.utils.MyJavaTypeResolver">-->
+<!--            &lt;!&ndash; 是否使用bigDecimal， false可自动转化以下类型（Long, Integer, Short, etc.） &ndash;&gt;-->
+<!--            <property name="forceBigDecimals" value="false"/>-->
+<!--        </javaTypeResolver>-->
+
+<!--        &lt;!&ndash; 生成实体类的包名和位置 ，targetPackage指的是包名,targetProject值得是路径位置&ndash;&gt;-->
+<!--        &lt;!&ndash; 对于生成的pojo所在包,pojo其实就是domain Entity&ndash;&gt;-->
+<!--        <javaModelGenerator targetPackage="${generator.javaModel-targetPackage}" targetProject="${generator.targetProject.model}">-->
+<!--            <property name="enableSubPackages" value="true"/>-->
+<!--            <property name="trimStrings" value="true"/>-->
+<!--        </javaModelGenerator>-->
+
+<!--        &lt;!&ndash; 对于生成的mapper.xml所在目录 &ndash;&gt;-->
+<!--        <sqlMapGenerator targetPackage="${generator.sqlMap-targetPackage}" targetProject="server/src/main/resources/mybatis"/>-->
+
+<!--        &lt;!&ndash; 配置mapper对应的java映射  也可以叫dao层 &ndash;&gt;-->
+<!--        <javaClientGenerator targetPackage="${generator.javaClient-targetPackage}" targetProject="${generator.targetProject}"-->
+<!--                             type="XMLMAPPER"/>-->
+
+<!--        &lt;!&ndash;<table tableName="tr_gd_trade_basic_info"></table>&ndash;&gt;-->
+<!--        <table tableName="tr_result_main_log"></table>-->
+<!--    </context>-->
+<!--</generatorConfiguration>-->

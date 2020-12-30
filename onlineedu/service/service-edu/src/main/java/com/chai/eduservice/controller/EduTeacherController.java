@@ -45,7 +45,25 @@ public class EduTeacherController {
 	@ApiOperation("pagehelp 分页测试")
 	public ResultUtil getTeacherByPage(@RequestBody PageQuery<EduTeacher> pageQuery){
 		ResultUtil teacherByPage = eduTeacherService.getTeacherByPage(pageQuery);
-		return ResultUtil.result(0,"11",teacherByPage);
+		return teacherByPage;
+	}
+	@PostMapping("/removeTeacherById")
+	@ApiOperation("删除教师")
+	public ResultUtil removeTeacherById(@RequestBody EduTeacher pageQuery){
+		ResultUtil teacherByPage = eduTeacherService.removeTeacherById(pageQuery);
+		return teacherByPage;
+	}
+	@PostMapping("/saveOrUpdateTracher")
+	@ApiOperation("新增或者修改教师信息")
+	public ResultUtil saveOrUpdateTracher(@RequestBody EduTeacher pageQuery){
+		ResultUtil teacherByPage = eduTeacherService.saveOrUpdateTracher(pageQuery);
+		return teacherByPage;
+	}
+	@PostMapping("/getTeacherById")
+	@ApiOperation("查询某一个教师")
+	public ResultUtil getTeacherById(@RequestBody EduTeacher pageQuery){
+		ResultUtil teacherByPage = eduTeacherService.getTeacherById(pageQuery);
+		return teacherByPage;
 	}
 	@PostMapping("/getException")
 	@ApiOperation("统一异常类测试")

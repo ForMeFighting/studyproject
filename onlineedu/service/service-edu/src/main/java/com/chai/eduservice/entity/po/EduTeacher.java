@@ -49,7 +49,7 @@ public class EduTeacher implements Serializable {
     private Integer sort;
 
     @ApiModelProperty(value = "逻辑删除 1（true）已删除， 0（false）未删除")
-    private Boolean isDeleted;
+    private String isDeleted;
 
     @ApiModelProperty(value = "创建时间")
     private Date gmtCreate;
@@ -117,11 +117,11 @@ public class EduTeacher implements Serializable {
         this.sort = sort;
     }
 
-    public Boolean getDeleted() {
+    public String getIsDeleted() {
         return isDeleted;
     }
 
-    public void setDeleted(Boolean deleted) {
+    public void setIsDeleted(String deleted) {
         isDeleted = deleted;
     }
 

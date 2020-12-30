@@ -60,6 +60,7 @@ public class CodeGenerator {
 		pc.setEntity("entity.po");
 		pc.setService("service");
 		pc.setMapper("mapper");
+		pc.setXml("mapper.auto");
 		mpg.setPackageInfo(pc);
 
 		// 5、策略配置

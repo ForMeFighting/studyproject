@@ -17,5 +17,5 @@ import java.util.List;
 @Mapper
 public interface EduTeacherMapper extends BaseMapper<EduTeacher> {
 
-	List<EduTeacher> getTeacherByPage();
+	List<EduTeacher> getTeacherByPage(EduTeacher data);
 }
