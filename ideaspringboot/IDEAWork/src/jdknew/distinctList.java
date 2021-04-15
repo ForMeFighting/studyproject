@@ -15,20 +15,26 @@ public class distinctList {
 			Person p = new Person();
 			p.setAddress("s"+i/2);
 			p.setAge((i/2)+"");
-			p.setEmail("");
+			p.setEmail("2");
 			p.setName(i+"");
 			list.add(p);
 		}
+
 		ArrayList<Person> collect = list.stream().collect(Collectors.collectingAndThen(
 				Collectors.toCollection(() -> new TreeSet<>(
 						Comparator.comparing(
 								Person::getAge))), ArrayList::new));
-		System.out.println(collect.size());
+//		System.out.println(collect.size());
 		ArrayList<Person> collect1 = list.stream().collect(Collectors.collectingAndThen(
 				Collectors.toCollection(() -> new TreeSet<>(
 						Comparator.comparing(
 								person -> person.getAge() + ";" + person.getAddress()))), ArrayList::new));
-		System.out.println(collect1.size());
+		Map<String, List<Person>> collect2 = list.stream().collect(Collectors.groupingBy(Person::getEmail));
+		for (Map.Entry<String,List<Person>> map: collect2.entrySet()) {
+			System.out.println(map.getKey());
+			System.out.println(collect2.size());
+		}
+//		System.out.println(collect1.size());
 	}
 }
 class Person{

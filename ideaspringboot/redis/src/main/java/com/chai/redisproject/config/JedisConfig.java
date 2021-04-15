@@ -31,7 +31,8 @@ public class JedisConfig {
 	private int maxIdle;
 	@Value("${spring.redis.jedis.pool.min-idle}")
 	private int minIdle;
-
+	@Value("${spring.redis.password}")
+	private String password;
 	@Bean
 	public JedisPool jedisPool() {
 		JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();

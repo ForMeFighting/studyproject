@@ -1,6 +1,6 @@
 package treetest;
 
-import com.alibaba.fastjson.JSON;
+//import com.alibaba.fastjson.JSON;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,7 @@ public class TreeTest {
 		MenuTree menuTree = new MenuTree(menuList);
 		menuList = menuTree.builTree();
 		/*转为json看看效果*/
-		String jsonOutput = JSON.toJSONString(menuList);
-		System.out.println(jsonOutput);
+//		String jsonOutput = JSON.toJSONString(menuList);
+//		System.out.println(jsonOutput);
 	}
 }
