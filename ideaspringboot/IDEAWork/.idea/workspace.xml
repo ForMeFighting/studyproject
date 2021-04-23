@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6a7d38-d94b-4798-b81f-6ab86acd0633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datetest/DateAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datetest/DateMakeNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datetest/JDK8LocalDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datetest/MakeDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdknew/FindValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdknew/ThreadCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/CeilAddOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/JudgJiShu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ByteLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ConditonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAWork/JsonTest/JsonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAWork/datetest/GetBetweenDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAWork/datetest/GetBetweenDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAWork/jdknew/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAWork/jdknew/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAWork/jdknew/distinctList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAWork/jdknew/distinctList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAWork/string/StringSubStirngTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAWork/string/StringSubStirngTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IDEAWork/treetest/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDEAWork/treetest/TreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JsonTest/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JsonTest/JsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datetest/GetBetweenDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datetest/GetBetweenDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdknew/distinctList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdknew/distinctList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/StringSubStirngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/StringSubStirngTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/treetest/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/treetest/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redis/src/main/java/com/chai/redisproject/config/JedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/src/main/java/com/chai/redisproject/config/JedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../preOnlineedu/vue-admin-template-master/src/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../preOnlineedu/vue-admin-template-master/src/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/StringBuilderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,21 +17,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thread/CountDownLatchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="525">
               <caret line="21" column="52" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="52" />
             </state>
           </provider>
@@ -106,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/CyclicBarrier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="6625">
               <caret line="301" column="29" selection-start-line="301" selection-start-column="29" selection-end-line="301" selection-end-column="29" />
               <folding>
                 <element signature="e#9581#9582#0" expanded="true" />
@@ -117,11 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/StringSubStirngTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="309">
               <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/StringBuilderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JsonTest/JsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="25">
               <caret line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#830#0" expanded="true" />
@@ -141,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/treetest/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="750">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -198,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/proxy/staticproxy/Fruit.java" />
         <option value="$PROJECT_DIR$/src/proxy/staticproxy/Orange.java" />
         <option value="$PROJECT_DIR$/src/proxy/staticproxy/ProxyClass.java" />
         <option value="$PROJECT_DIR$/src/proxy/StaticeProxyClass.java" />
@@ -249,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/treetest/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/JsonTest/JsonTest.java" />
+        <option value="$PROJECT_DIR$/src/string/StringBuilderTest.java" />
       </list>
     </option>
   </component>
@@ -264,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -297,7 +271,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,9 +306,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringSubStirngTest">
-    <configuration name="CeilAddOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.CeilAddOne" />
+  <component name="RunManager" selected="Application.StringBuilderTest">
+    <configuration name="JudgJiShu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.JudgJiShu" />
       <module name="IDEAWork" />
       <extension name="coverage">
         <pattern>
@@ -347,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JudgJiShu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.JudgJiShu" />
+    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringBuilderTest" />
       <module name="IDEAWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,18 +368,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.StringSubStirngTest" />
-      <item itemvalue="Application.CeilAddOne" />
       <item itemvalue="Application.JudgJiShu" />
       <item itemvalue="Application.StringTest" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.StringBuilderTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBuilderTest" />
         <item itemvalue="Application.StringSubStirngTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.JudgJiShu" />
-        <item itemvalue="Application.CeilAddOne" />
       </list>
     </recent_temporary>
   </component>
@@ -528,11 +501,12 @@
       <workItem from="1617092380784" duration="1088000" />
       <workItem from="1617159896291" duration="2975000" />
       <workItem from="1618366579726" duration="799000" />
+      <workItem from="1618483169793" duration="1635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189547000" />
+    <option name="totallyTimeSpent" value="191182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,8 +519,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1554" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" sideWeight="0.4951049" visible="true" weight="0.20267558" />
+      <window_info id="Project" order="0" sideWeight="0.4951049" visible="true" weight="0.20267558" />
       <window_info id="Structure" order="1" sideWeight="0.5048951" side_tool="true" weight="0.1307847" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -644,16 +619,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/datetest/Mills.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="63" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jdknew/JdkLamBda.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -978,6 +943,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/ReenTrantLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1011,7 +993,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="6625">
           <caret line="301" column="29" selection-start-line="301" selection-start-column="29" selection-end-line="301" selection-end-column="29" />
           <folding>
             <element signature="e#9581#9582#0" expanded="true" />
@@ -1021,36 +1003,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/treetest/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JsonTest/JsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="25">
           <caret line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#830#0" expanded="true" />
@@ -1058,10 +1013,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/treetest/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/StringSubStirngTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="309">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/StringBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

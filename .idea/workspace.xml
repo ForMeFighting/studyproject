@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="567b036f-589c-4488-9d52-21fcf8496748" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/datetest/DateAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/datetest/DateMakeNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/datetest/JDK8LocalDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/datetest/MakeDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/jdknew/FindValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/jdknew/ThreadCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/math/CeilAddOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/math/JudgJiShu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/sort/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/string/ByteLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/thread/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ideaspringboot/IDEAWork/out/production/IDEAWork/datetest/GetBetweenDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/out/production/IDEAWork/datetest/GetBetweenDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ideaspringboot/IDEAWork/out/production/IDEAWork/jdknew/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/out/production/IDEAWork/jdknew/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ideaspringboot/IDEAWork/out/production/IDEAWork/jdknew/distinctList.class" beforeDir="false" afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/out/production/IDEAWork/jdknew/distinctList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ideaspringboot/IDEAWork/out/production/IDEAWork/string/StringSubStirngTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/out/production/IDEAWork/string/StringSubStirngTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/datetest/GetBetweenDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/datetest/GetBetweenDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/jdknew/distinctList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/jdknew/distinctList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/string/StringSubStirngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ideaspringboot/IDEAWork/src/string/StringSubStirngTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preOnlineedu/vue-admin-template-master/src/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/preOnlineedu/vue-admin-template-master/src/api/login.js" afterDir="false" />
-    </list>
+    <list default="true" id="6bdfb101-5ad8-4aa6-a6c0-a1d9b8aa96bc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/preOnlineedu/vue-admin-template-master/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,144 +11,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ideaspringboot/redis/src/main/java/com/chai/redisproject/config/JedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-339" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="userSettingsFile" value="E:\maven\apache-maven-3.5.4\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1945" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chai" type="462c0819:PsiDirectoryNode" />
-              <item name="redisproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="ideaspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="chai" type="462c0819:PsiDirectoryNode" />
-              <item name="redisproject" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ideaspringboot/redis" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,9 +49,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MybatisplusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="study" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chai.mybatisplus.MybatisplusApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,29 +65,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="567b036f-589c-4488-9d52-21fcf8496748" name="Default Changelist" comment="" />
-      <created>1604542310726</created>
+      <changelist id="6bdfb101-5ad8-4aa6-a6c0-a1d9b8aa96bc" name="Default Changelist" comment="" />
+      <created>1618453406192</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604542310726</updated>
-      <workItem from="1604542321436" duration="281000" />
-      <workItem from="1616569825364" duration="96000" />
+      <updated>1618453406192</updated>
+      <workItem from="1618453411979" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377000" />
+    <option name="totallyTimeSpent" value="200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -227,33 +100,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Jms Messenger" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Jms Messenger" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ideaspringboot/redis/src/main/java/com/chai/redisproject/config/JedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339" />
+        <state relative-caret-position="50">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
       </provider>
     </entry>
   </component>

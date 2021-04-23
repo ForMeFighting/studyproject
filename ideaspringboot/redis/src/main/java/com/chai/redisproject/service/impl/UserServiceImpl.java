@@ -28,7 +28,6 @@ public class UserServiceImpl implements UserService {
 	@Resource
 	private RedisTemplate redisTemplate;
 
-	@Override
 	public String getString(String key) {
 		Jedis jedis = jedisPool.getResource();
 		String val = "";
@@ -46,7 +45,7 @@ public class UserServiceImpl implements UserService {
 		return val;
 	}
 
-	@Override
+
 	public User getUserInfo() {
 		User user = new User();
 		user.setAge(18);
