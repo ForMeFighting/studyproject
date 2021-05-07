@@ -18,6 +18,9 @@
         </dependency>
     </dependencies>
     <build>
+        <!--  如果使用的是mybatis-plus,并且mapper下的xml文件不再resource下，则在编译时会找不到xml问价
+              则需要进行以下的配置
+         -->
         <resources>
             <resource>
                 <directory>src/main</directory>
