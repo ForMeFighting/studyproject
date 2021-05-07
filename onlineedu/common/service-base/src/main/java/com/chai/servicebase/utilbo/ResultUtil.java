@@ -12,7 +12,7 @@ import java.io.Serializable;
 @Data
 public class ResultUtil<T> implements Serializable {
 	private static final long serialVersionUID = 2120267584344923858L;
-	private Integer status = 0;
+	private Integer code = 0;
 
 	private String message = "Success";
 
@@ -22,8 +22,8 @@ public class ResultUtil<T> implements Serializable {
 
 	}
 
-	public ResultUtil(Integer status, String message, T data) {
-		this.status = status;
+	public ResultUtil(Integer code, String message, T data) {
+		this.code = code;
 		this.message = message;
 		this.data = data;
 	}
@@ -60,11 +60,11 @@ public class ResultUtil<T> implements Serializable {
 	}
 
 	public Integer getStatus() {
-		return status;
+		return code;
 	}
 
 	public void setStatus(Integer status) {
-		this.status = status;
+		this.code = status;
 	}
 
 	public String getMessage() {
@@ -86,7 +86,7 @@ public class ResultUtil<T> implements Serializable {
 	@Override
 	public String toString() {
 		return "ResultUtil{" +
-				"status=" + status +
+				"status=" + code +
 				", message='" + message + '\'' +
 				", data=" + data +
 				'}';

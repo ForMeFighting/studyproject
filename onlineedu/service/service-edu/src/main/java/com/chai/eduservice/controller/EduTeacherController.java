@@ -26,8 +26,8 @@ import java.util.List;
  * @since 2020-11-19
  */
 @RestController
-@RequestMapping("/eduservice")
-//@CrossOrigin //跨域
+@RequestMapping("/eduservice/teacher")
+@CrossOrigin //跨域
 @Slf4j
 public class EduTeacherController {
 	@Autowired
@@ -70,6 +70,13 @@ public class EduTeacherController {
 	public ResultUtil getException(){
 		int i = 5 /0;
 		return ResultUtil.result(0,"异常");
+	}
+
+	@PostMapping("/mpGetTeacherByPage")
+	@ApiOperation("使用Mybatis-Plus实现 分页测试")
+	public ResultUtil mpGetTeacherByPage(@RequestBody PageQuery<EduTeacher> pageQuery){
+		ResultUtil teacherByPage = eduTeacherService.mpGetTeacherByPage(pageQuery);
+		return teacherByPage;
 	}
 }
 

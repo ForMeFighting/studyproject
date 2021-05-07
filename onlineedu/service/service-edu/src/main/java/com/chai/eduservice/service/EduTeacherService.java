@@ -24,4 +24,6 @@ public interface EduTeacherService extends IService<EduTeacher> {
 	ResultUtil saveOrUpdateTracher(EduTeacher pageQuery);
 
 	ResultUtil getTeacherById(EduTeacher pageQuery);
+
+	ResultUtil mpGetTeacherByPage(PageQuery<EduTeacher> pageQuery);
 }

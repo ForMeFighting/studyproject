@@ -2,26 +2,26 @@ import request from '@/utils/request'
 
 export function login(username, password) {
   return request({
-    url: '/user/login',
+    url: '/eduservice/user/login',
     method: 'post',
     data: {
-      username : username,
-      password : password
+      username,
+      password
     }
   })
 }
 
 export function getInfo(token) {
   return request({
-    url: '/user/info',
+    url: '/eduservice/user/info',
     method: 'post',
-    params: { token : token }
+    params: { token }
   })
 }
 
 export function logout() {
   return request({
-    url: '/user/logout',
+    url: '/eduservice/user/logout',
     method: 'post'
   })
 }

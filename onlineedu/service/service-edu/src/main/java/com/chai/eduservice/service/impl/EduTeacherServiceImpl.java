@@ -1,5 +1,8 @@
 package com.chai.eduservice.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.chai.eduservice.entity.po.EduTeacher;
 import com.chai.eduservice.mapper.EduTeacherMapper;
 import com.chai.eduservice.service.EduTeacherService;
@@ -39,7 +42,7 @@ public class EduTeacherServiceImpl extends ServiceImpl<EduTeacherMapper, EduTeac
 		EduTeacher data = pageQuery.getData();
 		PageInfo pageInfo = pageQuery.getPageInfo();
 		PageHelper.startPage(pageInfo.getPageNum(), pageInfo.getPageSize());
-		List<EduTeacher> teacherByPage = eduTeacherMapper.getTeacherByPage(data);
+		List<EduTeacher> teacherByPage = eduTeacherMapper.selectList(null);
 		return ResultUtil.success(new PageInfo<>(teacherByPage));
 	}
 	/**
@@ -78,5 +81,29 @@ public class EduTeacherServiceImpl extends ServiceImpl<EduTeacherMapper, EduTeac
 	public ResultUtil getTeacherById(EduTeacher eduTeacher) {
 		List<EduTeacher> list = eduTeacherMapper.getTeacherByPage(eduTeacher);
 		return ResultUtil.result(0,"查询成功",list);
+	}
+	/**
+	* @author:         柴俊杰
+	* @Description:    根据条件查询教师信息
+	* @date:           2021/5/6 14:58
+	*/
+	@Override
+	public ResultUtil mpGetTeacherByPage(PageQuery<EduTeacher> pageQuery) {
+		Page<EduTeacher> page = new Page<>(pageQuery.getPageInfo().getPageNum(),pageQuery.getPageInfo().getPageSize());
+		IPage<EduTeacher> eduTeacherIPage = eduTeacherMapper.selectPage(page, null);
+		QueryWrapper<EduTeacher> wrapper = new QueryWrapper();
+		// 多条件组合查询
+		// mybatis学过 动态sql
+		String name = pageQuery.getData().getName();
+		Integer level = pageQuery.getData().getLevel();
+		//判断条件值是否为空，如果不为空拼接条件
+		if(!StringUtils.isEmpty(name)) {
+			//构建条件
+			wrapper.like("name",name);
+		}
+		if(level != null) {
+			wrapper.eq("level",level);
+		}
+		return ResultUtil.success(eduTeacherIPage);
 	}
 }
