@@ -22,7 +22,7 @@ export default {
     //添加讲师
     addTeacher(teacher) {
         return request({
-            url: `/eduservice/teacher/addTeacher`,
+            url: `/eduservice/teacher/saveOrUpdateTracher`,
             method: 'post',
             data: teacher
           })
@@ -38,7 +38,7 @@ export default {
     //修改讲师
     updateTeacherInfo(teacher) {
         return request({
-            url: `/eduservice/teacher/updateTeacher`,
+            url: `/eduservice/teacher/saveOrUpdateTracher`,
             method: 'post',
             data: teacher
           })

@@ -36,7 +36,7 @@
       :key：类似于id，如果一个页面多个图片上传控件，可以做区分
       :url：后台上传的url地址
       @close：关闭上传组件
-      @crop-upload-success：上传成功后的回调 
+      @crop-upload-success：上传成功后的回调
         <input type="file" name="file"/>
       -->
           <image-cropper
@@ -119,7 +119,7 @@ export default {
     getInfo(id) {
       teacherApi.getTeacherInfo(id)
         .then(response => {
-          this.teacher = response.data.teacher
+          this.teacher = response.data[0  ]
         })
     },
     saveOrUpdate() {
