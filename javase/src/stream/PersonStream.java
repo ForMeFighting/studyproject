@@ -85,7 +85,11 @@ public class PersonStream {
 
 		//分组
 		Map<Boolean, List<Person>> collect3 = personList.stream().collect(Collectors.partitioningBy(x -> x.getSalary() > 8000));
-		System.out.println("员工按薪资是否大于8000分组情况：" + collect3.toString());
+//		System.out.println("员工按薪资是否大于8000分组情况：" + collect3.toString());
+
+		List<String> collect4 = personList.stream().distinct().map(Person::getSex).collect(Collectors.toList());
+
+		System.out.println(collect4.size());
 
 	}
 }

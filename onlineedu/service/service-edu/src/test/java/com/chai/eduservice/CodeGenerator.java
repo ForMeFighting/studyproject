@@ -1,5 +1,7 @@
 package com.chai.eduservice;
 
+import cn.hutool.json.JSONObject;
+import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
@@ -82,5 +84,12 @@ public class CodeGenerator {
 
 		// 6、执行
 		mpg.execute();
+	}
+	@Test
+	public void testJson(){
+		String json = "{\"fileId\":\"1394928250038468610\",\"fileName\":\"会议纪要-采购合同需求确认以及新需求蔓延--2021..05.18.docx\",\"fileSize\":\"21133\",\"isSeal\":\"1\",\"url\":\"/group1/M00/00/15/wKgVF2Ckx8qAU_tvAABSjRnin8Y80.docx?attname=会议纪要-采购合同需求确认以及新需求蔓延--2021..05.18.docx\"}";
+		JSONObject jsonObject = JSONUtil.parseObj(json);
+		Object isSeal = jsonObject.get("isSeal");
+		System.out.println(isSeal);
 	}
 }

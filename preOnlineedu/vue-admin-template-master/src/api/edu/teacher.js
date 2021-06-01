@@ -15,8 +15,9 @@ export default {
     //删除讲师
     deleteTeacherId(id) {
         return request({
-            url: `/eduservice/teacher/${id}`,
-            method: 'delete'
+            url: `/eduservice/teacher/removeTeacherById`,
+            method: 'post',
+            data:{id:id}
           })
     },
     //添加讲师

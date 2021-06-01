@@ -17,6 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -66,6 +67,8 @@ public class EduTeacherServiceImpl extends ServiceImpl<EduTeacherMapper, EduTeac
 	@Override
 	public ResultUtil saveOrUpdateTracher(EduTeacher eduTeacher) {
 		if(StringUtils.isEmpty(eduTeacher.getId())){
+			eduTeacher.setGmtCreate(new Date());
+			eduTeacher.setGmtModified(new Date());
 			int insert = eduTeacherMapper.insert(eduTeacher);
 			return ResultUtil.result(0,"添加成功",insert);
 		}

@@ -56,7 +56,7 @@
           const id = this.$route.params.id
           this.fetchDataById(id)
         }
-      }
+      },
       methods: {
 
         saveOrUpdate() {

@@ -49,8 +49,8 @@ public class EduTeacherController {
 	}
 	@PostMapping("/removeTeacherById")
 	@ApiOperation("删除教师")
-	public ResultUtil removeTeacherById(@RequestBody EduTeacher pageQuery){
-		ResultUtil teacherByPage = eduTeacherService.removeTeacherById(pageQuery);
+	public ResultUtil removeTeacherById(@RequestBody EduTeacher eduTeacher){
+		ResultUtil teacherByPage = eduTeacherService.removeTeacherById(eduTeacher);
 		return teacherByPage;
 	}
 	@PostMapping("/saveOrUpdateTracher")

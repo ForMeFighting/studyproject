@@ -44,7 +44,7 @@
                         :width="300"
                         :height="300"
                         :key="imagecropperKey"
-                        :url="BASE_API+'/eduoss/fileoss'"
+                        :url="BASE_API+'/eduoss/fileoss/uploadOssFile'"
                         field="file"
                         @close="close"
                         @crop-upload-success="cropSuccess"/>
@@ -100,7 +100,7 @@ export default {
     cropSuccess(data) {
       this.imagecropperShow=false
       //上传之后接口返回图片地址
-      this.teacher.avatar = data.url
+      this.teacher.avatar = data
       this.imagecropperKey = this.imagecropperKey+1
     },
     init() {

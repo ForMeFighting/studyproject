@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9bb0302-1e58-4719-a8b5-56506d08b808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/TestWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/OssApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/controller/OssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/service/OssService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/service/impl/OssServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/util/ConstantPropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javase/stream/PersonStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javase/stream/PersonStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream/PersonStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/PersonStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlineedu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlineedu/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduTeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduTeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduTeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/api/edu/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/api/edu/teacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/views/edu/teacher/save.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/views/edu/teacher/save.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stream/StreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-409">
+            <state relative-caret-position="725">
               <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -62,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stream/PersonStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="69" column="71" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="71" />
+            <state relative-caret-position="175">
+              <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,8 +141,8 @@
         <option value="$PROJECT_DIR$/src/udp/UdpServer.java" />
         <option value="$PROJECT_DIR$/src/stream/Person.java" />
         <option value="$PROJECT_DIR$/src/stream/StreamTest.java" />
-        <option value="$PROJECT_DIR$/src/stream/PersonStream.java" />
         <option value="$PROJECT_DIR$/src/thread/TestWait.java" />
+        <option value="$PROJECT_DIR$/src/stream/PersonStream.java" />
       </list>
     </option>
   </component>
@@ -155,8 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +202,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,15 +215,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/maven/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar!/" />
+    <property name="last_opened_file_path" value="E:/maven/repository/cn/hutool/hutool-all/5.5.2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -220,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestWait">
+  <component name="RunManager" selected="Application.PersonStream">
     <configuration name="PersonStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.PersonStream" />
       <module name="javase" />
@@ -288,8 +307,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestWait" />
         <item itemvalue="Application.PersonStream" />
+        <item itemvalue="Application.TestWait" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.UdpClient" />
         <item itemvalue="Application.UdpServer" />
@@ -325,11 +344,15 @@
       <workItem from="1620635702814" duration="833000" />
       <workItem from="1620785569867" duration="756000" />
       <workItem from="1620787569254" duration="680000" />
+      <workItem from="1621234896597" duration="45000" />
+      <workItem from="1621235081034" duration="372000" />
+      <workItem from="1621481299660" duration="8000" />
+      <workItem from="1621481544833" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58575000" />
+    <option name="totallyTimeSpent" value="59167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,7 +367,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.1904762" visible="true" weight="0.25083837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.1904762" visible="true" weight="0.12877263" />
       <window_info id="Structure" order="1" sideWeight="0.8095238" side_tool="true" weight="0.25083837" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -353,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4441341" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26675978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -864,16 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stream/PersonStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="69" column="71" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/enumtest/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -883,8 +896,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stream/StreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
+        <state relative-caret-position="725">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stream/PersonStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -948,7 +971,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
