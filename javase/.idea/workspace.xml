@@ -2,22 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9bb0302-1e58-4719-a8b5-56506d08b808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/OssApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/controller/OssController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/service/OssService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/service/impl/OssServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/java/com.chai.ossservice/util/ConstantPropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-oss/src/test/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javase/stream/PersonStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javase/stream/PersonStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/PersonStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/PersonStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlineedu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlineedu/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduTeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduTeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduTeacherServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/api/edu/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/api/edu/teacher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/views/edu/teacher/save.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/views/edu/teacher/save.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/TreeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/common/service-base/src/main/java/com/chai/servicebase/handle/GuliException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/common/service-base/src/main/java/com/chai/servicebase/utilbo/TreeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/common/service-base/src/main/java/com/chai/servicebase/utilclass/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduChapterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduSubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/controller/EduVideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/bo/CourseInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/bo/CoursePublishVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/bo/TeacherQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/chapter/ChapterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/chapter/VideoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/excel/SubjectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/po/EduChapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/po/EduCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/po/EduCourseDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/po/EduSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/po/EduVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/subject/OneSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/entity/subject/TwoSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/listener/SubjectExcelListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/EduChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/EduCourseDescriptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/EduCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/EduSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/EduVideoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/auto/EduChapterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/auto/EduCourseDescriptionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/auto/EduCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/auto/EduSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/mapper/auto/EduVideoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/EduChapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/EduCourseDescriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/EduCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/EduSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/EduVideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduChapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduCourseDescriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/main/java/com/chai/eduservice/service/impl/EduVideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/test/java/com/chai/eduservice/excel/DemoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/test/java/com/chai/eduservice/excel/ExcelListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlineedu/service/service-edu/src/test/java/com/chai/eduservice/excel/TestEasyExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javase/exception/SelfException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javase/exception/SelfException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlineedu/common/service-base/src/main/java/com/chai/servicebase/utilbo/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/common/service-base/src/main/java/com/chai/servicebase/utilbo/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onlineedu/common/service-base/src/main/java/com/chai/servicebase/utilbo/SelfExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../onlineedu/common/service-base/src/main/java/com/chai/servicebase/handle/SelfExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/views/edu/subject/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../preOnlineedu/vue-admin-template-master/src/views/edu/subject/list.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,11 +111,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stream/PersonStream.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tree/TreeData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tree/TreeUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +178,7 @@
       <find>cach</find>
       <find>compar</find>
       <find>compareTo</find>
+      <find>tostring</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,6 +217,8 @@
         <option value="$PROJECT_DIR$/src/stream/StreamTest.java" />
         <option value="$PROJECT_DIR$/src/thread/TestWait.java" />
         <option value="$PROJECT_DIR$/src/stream/PersonStream.java" />
+        <option value="$PROJECT_DIR$/src/tree/TreeData.java" />
+        <option value="$PROJECT_DIR$/src/tree/TreeUtil.java" />
       </list>
     </option>
   </component>
@@ -170,8 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,30 +260,14 @@
             </path>
             <path>
               <item name="javase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="enumtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PersonStream">
+  <component name="RunManager" selected="Application.TreeUtil">
     <configuration name="PersonStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.PersonStream" />
       <module name="javase" />
@@ -279,6 +337,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.TreeUtil" />
+      <module name="javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UdpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="udp.UdpClient" />
       <module name="javase" />
@@ -292,26 +363,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UdpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="udp.UdpServer" />
-      <module name="javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="udp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeUtil" />
         <item itemvalue="Application.PersonStream" />
         <item itemvalue="Application.TestWait" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.UdpClient" />
-        <item itemvalue="Application.UdpServer" />
       </list>
     </recent_temporary>
   </component>
@@ -348,11 +406,13 @@
       <workItem from="1621235081034" duration="372000" />
       <workItem from="1621481299660" duration="8000" />
       <workItem from="1621481544833" duration="167000" />
+      <workItem from="1622534982299" duration="9000" />
+      <workItem from="1622535664933" duration="1652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59167000" />
+    <option name="totallyTimeSpent" value="60828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,9 +425,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.1904762" visible="true" weight="0.12877263" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1904762" visible="true" weight="0.12877263" />
       <window_info id="Structure" order="1" sideWeight="0.8095238" side_tool="true" weight="0.25083837" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -377,7 +436,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26675978" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.72206706" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
@@ -439,24 +498,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ClassTest/ParentAndSadClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Byte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
-          <folding>
-            <element signature="e#10833#10834#0" expanded="true" />
-            <element signature="e#10867#10868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7625">
@@ -643,21 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42225">
-          <caret line="1754" column="28" selection-start-line="1754" selection-start-column="28" selection-end-line="1754" selection-end-column="28" />
-          <folding>
-            <element signature="e#4677#4678#0" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-            <element signature="e#66457#66458#0" expanded="true" />
-            <element signature="e#66495#66496#0" expanded="true" />
-            <element signature="e#82971#82972#0" expanded="true" />
-            <element signature="e#83020#83021#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,6 +934,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="2888" lean-forward="true" selection-start-line="2888" selection-end-line="2888" />
+          <folding>
+            <element signature="e#4677#4678#0" expanded="true" />
+            <element signature="e#4714#4715#0" expanded="true" />
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
+            <element signature="e#82971#82972#0" expanded="true" />
+            <element signature="e#83020#83021#0" expanded="true" />
+            <element signature="e#113343#113344#0" expanded="true" />
+            <element signature="e#113370#113371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/TreeData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/TreeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

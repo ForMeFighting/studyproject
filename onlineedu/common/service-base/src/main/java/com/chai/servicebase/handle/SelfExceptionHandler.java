@@ -1,4 +1,4 @@
-package com.chai.servicebase.utilbo;
+package com.chai.servicebase.handle;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
